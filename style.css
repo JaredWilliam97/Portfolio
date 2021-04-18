@@ -1,1 +1,30 @@
+header {
+  display: flex;
+  background-color: burlywood;
+  justify-content: space-between;
+  position: fixed;
+  width: 100px;
+  height: 10%;
+  padding: 2%;
+  top: 0;
+}
 
+nav a {
+  text-decoration: none;
+  color: burlywood;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  min-width: 7%;
+}
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: burlywood;
+  width: 100%;
+}
