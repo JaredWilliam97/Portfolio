@@ -1,69 +1,60 @@
-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.3;
-  margin-top: 6%;
-  margin-bottom: 6%;
-}
-
 header {
-  display: flex;
-  padding: 1%;
-  background-color: rgb(245, 138, 66);
-  color: burlywood;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 7%;
+  padding: 10px;
+  text-align: left;
+  background: rgb(4, 4, 39);
+  color: white;
 }
 
-h1 {
+nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(150, 20, 11);
+  justify-content: flex-end;
 }
-
+nav a {
+  color: rgb(12, 13, 15);
+  padding: 7px;
+  text-align: right;
+  text-decoration: none;
+}
 nav ul {
   display: flex;
   justify-content: space-around;
-  min-width: 5%;
 }
-
-nav a {
-  font-weight: bold;
-  text-decoration: none;
-  color: chocolate;
+nav li {
+  display: flex;
+  justify-content: space-between;
 }
-li {
-  width: 130px;
-}
-
 main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.projects {
-  display: flex;
   flex-direction: column;
-  text-align: center;
 }
-secion div {
-  display: flex;
+.Aboutme {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-img {
-  display: flex;
-  flex-direction: column;
+.Projects {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Resume {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Comingsoon {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+.Contactme {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 footer {
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: coral;
+  background-color: rgb(150, 20, 11);
   bottom: 0;
-  height: 8%;
-  justify-content: space-between;
 }
