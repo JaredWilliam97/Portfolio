@@ -97,4 +97,9 @@ footer li {
   nav {
     padding: 1%;
   }
+  footer {
+    background-color: blue;
+    flex-direction: column;
+    justify-content: stretch;
+  }
 }
