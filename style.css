@@ -58,6 +58,8 @@ button:hover {
   padding: 0;
   background: rgb(23, 102, 133);
   font-size: 25px;
+  display: flex;
+  align-self: flex-start;
 }
 .Projects {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -67,6 +69,8 @@ button:hover {
   padding: 0;
   background: rgb(23, 102, 133);
   font-size: 25px;
+  display: flex;
+  align-self: flex-start;
 }
 .Resume {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -81,7 +85,7 @@ button:hover {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   display: flex;
-  justify-content: flex-start;
+  align-self: flex-start;
 }
 
 /* Added footer flex box  */
