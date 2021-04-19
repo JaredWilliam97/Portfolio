@@ -1,3 +1,4 @@
+/* Set style for header */
 header {
   padding: 10px;
   text-align: left;
@@ -5,6 +6,7 @@ header {
   color: white;
 }
 
+/* made flex box with the nav */
 nav {
   display: flex;
   background-color: rgb(116, 9, 9);
@@ -26,19 +28,15 @@ nav li {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-/* main {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
+
+/* aligned pictures in a column using flex box */
 .pictures {
   display: flex;
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
 }
+/* Changed font family */
 .Aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -60,13 +58,17 @@ nav li {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
+/* Added footer flex box  */
 footer {
   display: flex;
-  position: fixed;
   width: 100%;
   background-color: rgb(116, 9, 9);
   bottom: 0;
+  justify-content: flex-end;
 }
+
+/* Changed font family for footer */
 footer li {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
