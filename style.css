@@ -37,13 +37,14 @@ button {
 button:hover {
   background-color: rgb(71, 71, 69);
 }
+
 .photofme {
   display: flex;
   margin-right: auto;
 }
 /* aligned pictures in a column using flex box */
 .pictures {
-  display: fclex;
+  display: flex;
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
@@ -52,10 +53,20 @@ button:hover {
 .Aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(23, 102, 133);
+  font-size: 25px;
 }
 .Projects {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(23, 102, 133);
+  font-size: 25px;
 }
 .Resume {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -69,6 +80,8 @@ button:hover {
 .Contactme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Added footer flex box  */
