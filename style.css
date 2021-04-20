@@ -59,19 +59,18 @@ button:hover {
 .Aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  box-sizing: border-box;
+  box-sizing: border-box solid;
   margin: 0;
   padding: 0;
   background: rgb(23, 102, 133);
   font-size: 25px;
   display: flex;
-  align-self: flex-start;
 }
+
 .Projects {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   box-sizing: border-box;
-
   margin: 0;
   padding: 0;
   background: rgb(23, 102, 133);
