@@ -16,4 +16,6 @@ I started the Project doing all the HTML and after the basic layout was done I u
 
 This was a great start to my Portfolio. I have learned alot so far and excited to learn more!
 
+License: None
+
 Jared Sutch
