@@ -49,6 +49,10 @@ button:hover {
   text-align: center;
   flex-wrap: wrap;
 }
+.hockeypic {
+  display: flex;
+  align-self: center;
+}
 /* Changed font family */
 .Aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
