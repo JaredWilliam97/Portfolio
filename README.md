@@ -1,5 +1,12 @@
 # Portfolio
 
+![K](https://user-images.githubusercontent.com/80869140/115602140-36a43700-a2a4-11eb-8d6a-61c17238ac71.jpg)
+
+
+
+
+
+
 Hello, I am new to HTML and CSS and this is my first Portfolio I have created. I will be adding more to it as I learn more. This project is to create a Portfolio using Html and CSS trying to utilize all the skills you have learned in the first week of class.
 
 In this project I am creating a the basic layout of an HTML document using CSS to style it. I have created a header, a nav bar, a main section and a footer. In the main section I have added a few photos that describe me. I like to play hockey, and fish. I put a photo of a server room because for the past 8 years I have been a hardware server engineer.
