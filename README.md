@@ -1,6 +1,5 @@
 # Portfolio
 
-![K](https://user-images.githubusercontent.com/80869140/115602140-36a43700-a2a4-11eb-8d6a-61c17238ac71.jpg)
 
 
 
