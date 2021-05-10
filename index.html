@@ -4,145 +4,210 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jared's Portfolio</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <!-- inserted a photo me -->
-      <section class="photofme">
+    <!-- custom nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jared William</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact me">Contact Me</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- container for body -->
+    <section class="row">
+      <div class="col-12 vh-100" id="background">
         <img
-          class="cursor"
-          src="https://pbs.twimg.com/profile_images/691052547352580096/2OjULtl9.jpg"
-          alt="Pic of me"
-          width="60px"
-          height="60px"
+          id="bio-picture"
+          src="./assets/images/familypic.jpg"
+          alt="family pic"
+          width="450"
+          height="450"
         />
+      </div>
+      <div class="col-12" id="projects">
+        <section class="container">
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="weather-project-img"
+                class="card-img-top"
+                href="https://jaredwilliam97.github.io/Weather-Dashboard/"
+                alt="Weather-Dashboard"
+              ></a>
+              <!-- <img class="card-img-top" src="./assets/images/Weatherdashboard.jpg" alt="Projects"> -->
 
-        <h1>Jared Sutch</h1>
-      </section>
+              <!-- <h2>Projects</h2> -->
+              <div class="card-body">
+                <p>
+                  In this project I used a an api from open weather map to get
+                  the forecast.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="workday-schedule"
+                class="card-img-top"
+                href="https://jaredwilliam97.github.io/Work-Day-Scheduler/"
+                alt="workday-schedule"
+              ></a>
 
-      <!-- Nav Bar -->
-      <nav>
-        <!-- Added class -->
-        <ul class="pics">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jared-sutch-5400b446/"
-              target="_blank"
-              rel="noopener"
-              >Resume</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jared-sutch-5400b446/"
-              target="_blank"
-              rel="noopener"
-              >About Me</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/JaredWilliam97"
-              target="_blank"
-              rel="noopener"
-              >Projects</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- Added class for contact button -->
-      <a class="white" href="#"><button>Contact</button></a>
-    </header>
-    <main>
-      <!-- Started a section -->
-      <section>
-        <h2><a class="Aboutme">About Me</a></h2>
-      </section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit
-        eligendi quae quidem nisi qui modi commodi, quisquam doloribus pariatur
-        vitae expedita hic consequuntur ratione culpa, officia voluptatum
-        laudantium laboriosam.
-      </p>
+              <div class="card-body">
+                <p>
+                  In this project I created a work-day scheduler to plan out
+                  your day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="code-quiz"
+                class="card-img-top"
+                href="https://jaredwilliam97.github.io/My-Code-Quiz/"
+                alt="workday-schedule"
+              ></a>
+              <div class="card-body">
+                <p>In this project I created a quiz about golf history</p>
+              </div>
+            </div>
+          </div>
+          <div class="column-card">
+            <div class="card">
+              <a
+                id="password-generator"
+                class="card-img-top"
+                href="https://jaredwilliam97.github.io/Password-Generator/"
+                alt="password-generator"
+              ></a>
+              <div class="card-body">
+                <p>In this project I created a password generator</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
 
-      <h2><a class="Projects">Projects</a></h2>
-      <section>
-        <!-- div Added 4 pictures about me -->
-        <div class="pictures">
-          <a
-            href="https://github.com/JaredWilliam97"
-            target="_blank"
-            rel="noopener"
-            ><img
-              src="https://images.unsplash.com/photo-1515703407324-5f753afd8be8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9ja2V5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              alt="Hockey Pic"
-              width="350px"
-              height="350px"
-          /></a>
-
-          <a
-            href="https://www.linkedin.com/in/jared-sutch-5400b446/"
-            target="_blank"
-            rel="noopener"
-            ><img
-              src="https://images.unsplash.com/photo-1532015917327-c7c46aa1d930?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmlzaGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              alt="Fishing Pic"
-              height="320px"
-              width="320px"
-          /></a>
-
-          <a href="#"
-            ><img
-              src="https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VydmVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              alt="Pic of a server"
-              height="320px"
-              width="320px"
-          /></a>
-
-          <a href="#"
-            ><img
-              src="https://images.unsplash.com/photo-1532901945832-bdf4f9e008fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxha2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              alt="Pic of a lake"
-              height="320px"
-              width="320px"
-          /></a>
-        </div>
-        <div>
-          <h2 class="Resume">Resume</h2>
-        </div>
-        <div>
-          <p class="Comingsoon">Coming Soon</p>
-        </div>
-      </section>
-    </main>
-    <!-- Inserted a footer -->
     <footer>
-      <!-- Added contact information -->
-      <h2 class="Contactme">Contact Me</h2>
-      <ul>
-        <li>Email: sutch002@yahoo.com</li>
-        <li>Phone #: 651-366-7698</li>
-        <li>
-          <a
-            href="https://github.com/JaredWilliam97"
-            target="_blank"
-            rel="noopener"
-            >Git Hub</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/jared-sutch-5400b446/"
-            target="_blank"
-            rel="noopener"
-            >Linked In</a
-          >
-        </li>
-      </ul>
+      <div id="contact me">
+        <div class="footer-content">
+          <p>My Personal Websites</p>
+          <ul class="socials">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jared-sutch-5400b446/"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-linkedin-square"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/whitespice97"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/jwsutch/"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/JaredWilliam97"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto: sutch002@yahoo.com"
+                ><i class="fa fa-yahoo"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2021 <span>Jared Sutch</span></p>
+        </div>
+      </div>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
