@@ -6,15 +6,17 @@ https://jaredwilliam97.github.io/Portfolio/
 
 
 
-Hello, I am new to HTML and CSS and this is my first Portfolio I have created. I will be adding more to it as I learn more. This project is to create a Portfolio using Html and CSS trying to utilize all the skills you have learned in the first week of class.
+My Updated Portfolio
 
-In this project I am creating a the basic layout of an HTML document using CSS to style it. I have created a header, a nav bar, a main section and a footer. In the main section I have added a few photos that describe me. I like to play hockey, and fish. I put a photo of a server room because for the past 8 years I have been a hardware server engineer.
+This is my updated portfolio in which I used all of skills that I have learned in my first 4 weeks of my class. 
 
-I have created a few links in the nav bar to connect to (Github, LinkedIn.)
-I have also put some links in the photo's as well.
-In the footer I have my concact information along with my Github, and LinkedIn.
+In this project I am creating a the basic layout of an HTML document using CSS to style it. I have created a header, a nav bar, a main section and a footer. I used bootstrap to create my nav bar and formatted it with css and changing some styling and margin.  I have a serch bar which is not in use at the time but will hopefully add some functionality in upcoming additions. 
 
-There were some features to my website that I think will stand out. I was able to create some hover commands in the nav bar along with a "Contact button" that stands out.
+In my nav bar I created a link to my resume, also I created a project button that will lead you to my projects and can access the url if you click on the picture.  
+I have a footer that has links to my LinkedIn, Github, an email button if you wanna email me, and a couple other social media websites. 
+
+
+There were some features to my website that I think will stand out. My footer I took a long time styling and trying to get it perfect.  
 
 As I built my website I used comments to help others reading to be able to understand it better.
 
