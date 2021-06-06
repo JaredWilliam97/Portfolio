@@ -1,5 +1,5 @@
 # Portfolio
-https://jaredwilliam97.github.io/Portfolio/
+file:///C:/Users/sutch/Desktop/02-Homework/Portfolio/index.html
 
 ![image](https://user-images.githubusercontent.com/80869140/117750989-fcaabe80-b1d9-11eb-9476-d6a7b00b21aa.png)
 
