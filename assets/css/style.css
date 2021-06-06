@@ -8,7 +8,7 @@ nav {
   padding: 250px;
 }
 #background {
-  background-image: url("https://images.unsplash.com/photo-1488229297570-58520851e868?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   border: solid 5px black;
   width: 100%;
   object-fit: cover;
@@ -123,11 +123,11 @@ footer {
   height: 300px;
 }
 #code-quiz {
-  background-image: url("https://images.unsplash.com/photo-1540835296355-c04f7a063cbb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cXVpenxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://images.unsplash.com/photo-1527219525722-f9767a7f2884?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fG5vdGUlMjB0YWtlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   height: 300px;
 }
 #password-generator {
-  background-image: url("https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzc3dvcmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVjaXBlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   height: 300px;
 }
 
