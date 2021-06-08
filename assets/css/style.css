@@ -9,14 +9,14 @@ nav {
 }
 #background {
   background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnVuJTIwcGljc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-  border: solid 5px black;
+  border: solid 5px gray;
   width: 100%;
   object-fit: cover;
   background-size: cover;
 }
 #bio-picture {
-  margin-top: 200px;
-  margin-left: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
 main {
