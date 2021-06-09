@@ -1,7 +1,8 @@
 # Portfolio
 https://jaredwilliam97.github.io/Portfolio/
 
-![image](https://user-images.githubusercontent.com/80869140/120930498-1513d900-c6b3-11eb-9d6e-d8374e3843ee.png)
+![image](https://user-images.githubusercontent.com/80869140/121120896-24467400-c7e4-11eb-847e-dbeb2f775e72.png)
+
 
 
 
@@ -11,7 +12,7 @@ https://jaredwilliam97.github.io/Portfolio/
 
 My Updated Portfolio
 
-This is my updated portfolio in which I used all of skills that I have learned in my first 4 weeks of my class. 
+This is my updated portfolio in which I used all of skills that I have learned in my first 8 weeks of my class. 
 
 In this project I am creating a the basic layout of an HTML document using CSS to style it. I have created a header, a nav bar, a main section and a footer. I used bootstrap to create my nav bar and formatted it with css and changing some styling and margin.  I have a search bar which is not in use at the time but will hopefully add some functionality in upcoming additions. 
 
