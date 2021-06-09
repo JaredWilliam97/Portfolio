@@ -15,8 +15,7 @@ nav {
   background-size: cover;
 }
 #bio-picture {
-  margin-top: 100px;
-  margin-left: 100px;
+  max-width: 100%;
 }
 
 main {
@@ -46,8 +45,9 @@ p {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 footer {
-  background-color: 27539c;
+  background-color: #000;
   height: auto;
   width: 100vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
