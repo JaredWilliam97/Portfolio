@@ -1,7 +1,8 @@
 # Portfolio
 https://jaredwilliam97.github.io/Portfolio/
 
-![image](https://user-images.githubusercontent.com/80869140/121120896-24467400-c7e4-11eb-847e-dbeb2f775e72.png)
+![image](https://user-images.githubusercontent.com/80869140/121293880-034c5480-c8b2-11eb-97c3-4efce9475528.png)
+
 
 
 
