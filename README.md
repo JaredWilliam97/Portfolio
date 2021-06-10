@@ -29,7 +29,9 @@ I started the Project doing all the HTML and after the basic layout was done I u
 
 This was a good project to add to my Portfolio. I have learned alot so far and excited to learn more!
 
-email:sutch002@yahoo.com
+If you want to connect you can email me or connect with me on LinkedIn
+
+email: sutch002@yahoo.com
 
 
 https://www.linkedin.com/in/jared-sutch-5400b446/
