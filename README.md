@@ -28,6 +28,7 @@ As I built my website I used comments to help others reading to be able to under
 I started the Project doing all the HTML and after the basic layout was done I used CSS to style it.
 
 This was a good project to add to my Portfolio. I have learned alot so far and excited to learn more!
+https://www.linkedin.com/in/jared-sutch-5400b446/
 
 License: None
 
