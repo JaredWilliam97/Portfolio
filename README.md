@@ -33,6 +33,8 @@ If you want to connect you can email me or connect with me on LinkedIn
 
 I have pinned a few of my projects. If you want to view all my projects please visit my Github profile to view all repositories.  
 
+https://jaredwilliam97.github.io/Work-Day-Scheduler/
+
 https://strong-one.github.io/Hollywood-Hub/
 
 https://github.com/JaredWilliam97/Favorite-Recipes
