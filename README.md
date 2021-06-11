@@ -31,6 +31,10 @@ This was a good project to add to my Portfolio. I have learned alot so far and e
 
 If you want to connect you can email me or connect with me on LinkedIn
 
+I have pinned a few of my projects. If you want to view all my projects please visit my Github profile to view all repositories.  
+
+https://github.com/JaredWilliam97/Favorite-Recipes
+
 email: sutch002@yahoo.com
 
 
