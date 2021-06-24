@@ -1,7 +1,8 @@
 # Portfolio
 https://jaredwilliam97.github.io/Portfolio/
 
-![image](https://user-images.githubusercontent.com/80869140/121120896-24467400-c7e4-11eb-847e-dbeb2f775e72.png)
+![image](https://user-images.githubusercontent.com/80869140/121293880-034c5480-c8b2-11eb-97c3-4efce9475528.png)
+
 
 
 
@@ -27,6 +28,23 @@ As I built my website I used comments to help others reading to be able to under
 I started the Project doing all the HTML and after the basic layout was done I used CSS to style it.
 
 This was a good project to add to my Portfolio. I have learned alot so far and excited to learn more!
+
+If you want to connect you can email me or connect with me on LinkedIn
+
+I have pinned a few of my projects. If you want to view all my projects please visit my Github profile to view all repositories.  
+
+https://jaredwilliam97.github.io/Work-Day-Scheduler/
+
+https://strong-one.github.io/Hollywood-Hub/
+
+https://github.com/JaredWilliam97/Favorite-Recipes
+
+https://fierce-coast-75782.herokuapp.com/
+
+email: sutch002@yahoo.com
+
+
+https://www.linkedin.com/in/jared-sutch-5400b446/
 
 License: None
 
